@@ -121,7 +121,7 @@
     <div class="hero-body">
       <img src="assets/FILS_Teaser.jpg">
       <h2 class="subtitle has-text-centered">
-        We introduce FILS, a framework for deeper video understanding that leverages a unified embedding space that integrates video and natural language for multimodal learning. The image below presents an overview of our method; it has two objectives: 1) Feature Prediction, where the input is masked and encoded (the student mode with random initialisation), and the predictor predicts representations. Then, we create representations of all the input data, which are meant to be targeted for the learning task (the teacher mode). To prevent the collapse, the teacher tracks student parameters, and their weights are derived from the exponentially moving average of the student. 2) ActCLIP, an auxiliary CLIP-based self-supervised objective performing contrastive learning between motion or action area patches and relevant text, aligning video and language spaces to learn semantic context.
+        We introduce FILS, a framework for deeper video understanding that leverages a unified embedding space that integrates video and natural language for multimodal learning. The image above presents an overview of our method; it has two objectives: 1) Feature Prediction, where the input is masked and encoded (the student mode with random initialisation), and the predictor predicts representations. Then, we create representations of all the input data, which are meant to be targeted for the learning task (the teacher mode). To prevent the collapse, the teacher tracks student parameters, and their weights are derived from the exponentially moving average of the student. 2) ActCLIP, an auxiliary CLIP-based self-supervised objective performing contrastive learning between motion or action area patches and relevant text, aligning video and language spaces to learn semantic context.
       </h2>
     </div>
   </div>
@@ -150,9 +150,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="assets/FILSgradcam.pdf">
+      <img src="assets/FILSgradcam.jpg">
       <h2 class="subtitle has-text-centered">
-        To gain deeper insight into the learned representations by FILS, we employ Grad-CAMs to visualize the prominent areas that significantly contribute to the accomplishment of the action recognition task. This visualization helps us better comprehend the spatiotemporal cues acquired during the self-supervised learning step. In the image below, we illustrate attention visualization for a few sample videos selected from the Epic-Kitchens-100 dataset; visualize attention heatmaps of the first, middle, and last frame of the video using the models trained with these training strategies: our proposed FILS, our first objective, which is FP, and MSE in the pixel domain.
+        To gain deeper insight into the learned representations by FILS, we employ Grad-CAMs to visualize the prominent areas that significantly contribute to the accomplishment of the action recognition task. This visualization helps us better comprehend the spatiotemporal cues acquired during the self-supervised learning step. In the image above, we illustrate attention visualization for a few sample videos selected from the Epic-Kitchens-100 dataset; visualize attention heatmaps of the first, middle, and last frame of the video using the models trained with these training strategies: our proposed FILS, our first objective, which is FP, and MSE in the pixel domain.
       </h2>
     </div>
   </div>
